@@ -12,5 +12,6 @@ public class HigherOrderFunction
         processSalary(salary, s -> s + (s*0.10));
         processSalary(salary, s -> s + 5000);
         processSalary(salary, s -> s - (s * 0.10));
+
     }
 }
